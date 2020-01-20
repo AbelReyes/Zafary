@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+}
+
+main {
+    display: block;
+    padding: 10px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.artistas {
+
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.34%;
+    grid-gap: 20px;
+    padding-right: 40px;
+}
+
+.artistas article {
+    background: #5AD2AE;
+    border: 1px solid #469F85;
+    display: grid;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+    color: beige;
+    border-radius: 20px;
+
+}
+
+.artistas img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.principal {
+    margin: 0 auto;
+    width: 500px;
+    background: #F2FCFF;
+    border: 2px solid #C3F1FF;
+    padding: 30px;
+    padding-top: 0;
+}
+.principal h1{
+    text-align: center;
+
+}

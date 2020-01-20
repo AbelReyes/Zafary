@@ -1,0 +1,64 @@
+.contenedor {
+   
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 70%;
+    height: 650px;
+    margin-left: 15%;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.sect1 {
+    grid-template-rows: 10% 90%;
+    border-right: 1px solid #8C8C8C;
+    display: grid;
+    
+}
+
+.sect2 {
+    grid-template-rows: 10% 90%;
+   
+
+    display: grid;
+}
+
+.up-az {
+    
+    padding-top: 20px;
+    text-align: center;
+  
+background-color: #DBDBDB;
+}
+
+.AMR {
+    display: grid;
+    
+
+}
+
+.ART {
+    border: 1px solid #DBDBDB;
+    padding: 45px 0px 0px 20px;
+}
+
+.CYN {
+
+    grid-template-rows: 95% 5%;
+    
+  
+    display: grid;
+
+}
+
+.art2 {
+
+    background-color: #F2F2F2;
+   
+}
+
+.art3 {
+    padding: 0px 0px 0px 20px;
+    border-radius: 15px;
+    
+}
